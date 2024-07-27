@@ -48,7 +48,7 @@ const requestFormData = async (params: APIReqParamsType) => {
   // const finalUrl = await axios.getUri(reqConfig);
 
   try {
-    return await axios(reqConfig).then((response:any) => {
+    return await axios(reqConfig).then((response: any) => {
       if ([200, 201, 202, 203].includes(response.status) === false) {
         // const errorObj = {
         //   message: 'Request Failed',
@@ -66,7 +66,7 @@ const requestFormData = async (params: APIReqParamsType) => {
       };
 
       return apiResult;
-    }).catch((error:any) => {
+    }).catch((error: any) => {
       apiError = new Error(error.message);
       let errorMessage = error.message;
       const { response, data } = error;
