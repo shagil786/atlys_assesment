@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { PostDataProvider } from "@/components/context/PostDataProvider";
+import Model from "@/components/model/page";
+import { ModelProvider } from "@/components/context/ModelProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <PostDataProvider>
+        <ModelProvider>
+          <body className={inter.className}>
+            <main className="flex flex-col justify-center items-center p-4">
+              {children}
+            </main>
+            <Model />
+          </body>
+        </ModelProvider>
+      </PostDataProvider>
     </html>
   );
 }
