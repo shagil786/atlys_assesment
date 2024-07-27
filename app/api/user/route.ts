@@ -1,4 +1,4 @@
-import { postsProps } from "@/src/interfaces/types/types";
+import { postsProps } from "@/components/interfaces/types/types";
 import { NextResponse } from "next/server";
 import profile1 from '../../../public/profile1.png';
 import profile2 from '../../../public/profile2.png';

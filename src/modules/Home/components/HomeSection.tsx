@@ -1,7 +1,10 @@
 import React from "react";
 import HomeTitle from "./HomeTitle";
 import CreatePost from "./CreatePost";
-import { HomeSectionProps, postsProps } from "@/src/interfaces/types/types";
+import {
+  HomeSectionProps,
+  postsProps,
+} from "@/components/interfaces/types/types";
 import Posts from "./Posts";
 import Loader from "@/components/loader/Loader";
 

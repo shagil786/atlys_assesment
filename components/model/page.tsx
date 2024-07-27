@@ -8,7 +8,7 @@ import {
   faEyeSlash,
 } from "@fortawesome/free-solid-svg-icons";
 import { usePostData } from "../context/PostDataProvider";
-import { inputType, modelProps } from "@/src/interfaces/types/types";
+import { inputType, modelProps } from "@/components/interfaces/types/types";
 import { useModelData } from "../context/ModelProvider";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
 

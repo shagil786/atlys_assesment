@@ -1,4 +1,4 @@
-import { APIReqParamsType, APIResultType } from '@/interfaces/types';
+import { APIReqParamsType, APIResultType } from '@/components/interfaces/types';
 import axios from 'axios';
 import _, { isEmpty } from 'lodash';
 

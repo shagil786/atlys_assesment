@@ -3,7 +3,7 @@ import {
   formDataProps,
   itemsProps,
   ModelContextProps,
-} from "@/src/interfaces/types/types";
+} from "@/components/interfaces/types/types";
 import React, { createContext, useContext, useState } from "react";
 
 const registerData: itemsProps = {

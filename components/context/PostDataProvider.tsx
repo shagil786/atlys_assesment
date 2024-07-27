@@ -1,7 +1,10 @@
 "use client";
 import useOutsideClick from "@/hooks/useOutsideClick";
 import { PostData } from "@/service/posts";
-import { postsProps, ProviderContextProps } from "@/src/interfaces/types/types";
+import {
+  postsProps,
+  ProviderContextProps,
+} from "@/components/interfaces/types/types";
 import React, {
   createContext,
   ReactNode,

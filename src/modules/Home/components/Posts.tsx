@@ -1,4 +1,4 @@
-import { postsProps } from "@/src/interfaces/types/types";
+import { postsProps } from "@/components/interfaces/types/types";
 import { faMessage } from "@fortawesome/free-regular-svg-icons";
 import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

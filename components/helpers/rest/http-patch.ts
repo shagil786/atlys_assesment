@@ -2,7 +2,7 @@ import axios from 'axios';
 import _ from 'lodash';
 
 // types
-import { APIReqParamsType, APIResultType } from '@/interfaces/types';
+import { APIReqParamsType, APIResultType } from '@/components/interfaces/types';
 
 
 // others
